@@ -1,0 +1,7 @@
+version: '3'
+services:
+profile-app:
+image: profile-app-image
+container_name: profile-container
+ports:
+- "8080:80"
